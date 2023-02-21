@@ -1,0 +1,47 @@
+@import "../../styles/style.module.scss";
+
+.footer {
+  background-color: $variantColor;
+  color: white;
+  height: 50vh;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer_Heading h4 {
+  color: $greyLight;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.employer_links {
+  padding-top: 1rem;
+}
+.employer_links a {
+  color: #f4f4f4;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  background-color: #302d42;
+  padding: 1rem;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.copyright p {
+  color: $greyLight;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,85 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  font-family: $fontPoppins;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headingColor;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.section_title {
+  font-size: 1.8rem;
+  font-family: $fontPoppins;
+  font-weight: 600;
+  text-align: center;
+  color: $headingColor;
+  padding: 2rem 0;
+}
+
+.section_title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 0.2rem;
+  background: #000;
+  left: 0;
+  top: 50%;
+  position: relative;
+  margin: 0 auto;
+  background: $primaryColor;
+}
+
+.primary__btn,
+.secondary__btn {
+  color: #0b2727 !important;
+  border: none !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  padding: 0.5rem 1.5rem !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.primary__btn {
+  background-color: $primaryColor !important;
+}
+
+.primary__btn a {
+  color: white;
+  text-decoration: none;
+}
+.secondary__btn {
+  background-color: white !important;
+}
+
+.secondary__btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: $headingColor;
+}
+
+.primary__btn,
+.secondary__btn a:hover {
+  color: inherit !important;
+}
