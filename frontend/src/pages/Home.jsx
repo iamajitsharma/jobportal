@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import FeaturedJobs from "../components/FeaturedJob/FeaturedJobs";
 import SectionTitle from "../shared/SectionTitle";
 import FeaturedCandidate from "../components/FeaturedCandidate/FeaturedCandidate";
+import SearchBar from "../shared/SearchBar";
 const Home = (props) => {
   return (
     <>
@@ -26,6 +27,7 @@ const Home = (props) => {
               </div>
             </Col>
           </Row>
+          <SearchBar />
         </Container>
       </section>
 
