@@ -100,7 +100,7 @@ const jobLists = [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minima, aliquid pariatur quas est deserunt facilis? Laborum numquam quisquam ratione, error omnis ullam aut, fuga voluptatem voluptates aperiam, vero tempore.",
   },
   {
-    id: "07",
+    id: "08",
     jobTitle: "Java Struts",
     salary: "60K",
     jobLocation: "Maharashtra",

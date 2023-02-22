@@ -1,0 +1,81 @@
+@import "../../styles/style.module.scss";
+
+.featuredJobList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.8rem;
+  padding: 0.6rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  position: relative;
+  font-family: $fontPoppins;
+}
+
+.jobTitle a {
+  text-decoration: none;
+}
+.jobTitle h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.featureJob_details ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  padding-left: 0;
+}
+
+.featureJob_details ul li {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: $greyColor;
+  font-family: $fontPoppins;
+}
+
+.featureJob_details ul li span {
+  color: $primaryColor;
+  font-size: 1.2rem;
+}
+
+.jobTitle h4 {
+  font-size: 0.8rem;
+  font-family: $fontPoppins;
+  font-weight: 500;
+  color: $greyColor;
+}
+.jobTitle h4 span {
+  padding-right: 0.3rem;
+}
+
+.salary h4,
+.jobType h4 {
+  font-size: 0.9rem;
+  color: $textColor;
+  font-weight: 500;
+}
+
+.jobType {
+  background-color: green;
+  width: 50%;
+  text-align: center;
+  padding: 0.2rem 0.3rem;
+  vertical-align: middle;
+}
+.jobType h4 {
+  color: white;
+}
+
+.jobLocation span,
+.salary span,
+.experience span {
+  padding-right: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.apply_button {
+  text-align: center;
+}

@@ -38,7 +38,11 @@ const Home = (props) => {
             <Col lg="12">
               <SectionTitle Title={"Featured Jobs"} />
             </Col>
-            <FeaturedJobs />
+          </Row>
+          <Row>
+            <Col lg="12">
+              <FeaturedJobs />
+            </Col>
           </Row>
         </Container>
       </section>
